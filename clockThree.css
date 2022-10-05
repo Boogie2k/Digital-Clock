@@ -1,0 +1,76 @@
+body{
+    background-color: #dde1e7;
+   
+}
+
+
+#clk{
+    color: black;
+    background-color: #dde1e7;
+    display: block;
+    height:100px ;
+    width: 350px;
+    
+    align-items: center; 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center; 
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 3px 3px 5px #fff,
+    -3px -3px 5px #000;
+    border-radius: 49px;
+}
+.clockItems{
+  display: flex;
+  margin-left: 75px;
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 10px ;
+  box-shadow:3px 3px 5px #fff inset,
+  -3px -3px 5px #000 inset;
+  width: 200px;
+}
+
+#hh{
+    width: 50px;
+   
+    
+}
+
+#mm{
+    width: 50px;
+    
+    
+}
+#ss{
+    width: 50px;
+   /* border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black; */
+}
+
+.dropdown{
+   width: 100%;
+   display: block;
+   margin-bottom: 75px;
+   margin-left: 75px;
+    
+}
+
+.set{
+    
+    
+    height: 30px;
+    border-radius: 49px;
+    background-color: #dde1e7;
+   
+}
+.alarm{
+    height: 30px;
+}
+
+
+
